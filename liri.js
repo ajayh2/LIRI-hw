@@ -32,7 +32,7 @@ function spotifyThisSong() {
     }
     console.log("Artist : " + data.tracks.items[0].artists[0].name);
     console.log("Name: " + data.tracks.items[0].name);
-    console.log("Spotify Link : " + data.tracks.items[0].external_conertURLs.spotify);
+    console.log("Spotify Link : " + data.tracks.items[0].external_urls.spotify);
     console.log("Album Name: " + data.tracks.items[0].album.name);
   });
 }
