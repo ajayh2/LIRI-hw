@@ -19,6 +19,9 @@ function switchFunction() {
     case "movie-this":
       movieThis();
       break;
+    case "do-what-it-says":
+      doWhatItSays();
+      break;
   }
 }
 function spotifyThisSong() {
